@@ -1,7 +1,3 @@
-Here's a `README.md` template for your project, focusing on clear instructions, scalability, and dynamic form handling.
-
----
-
 # Dynamic Form API with Node.js, MySQL, and Sequelize
 
 This project provides a RESTful API to create, store, and retrieve dynamic forms in a MySQL database. Using Node.js, MySQL, and Sequelize ORM, it allows flexible form creation with a focus on scalability and maintainability. The API follows MVC architecture and uses design principles like SOLID and encapsulation for robust code structure.
