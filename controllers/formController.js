@@ -4,7 +4,7 @@ const responseHandler = require('../utils/responseHandler');
 exports.createForm = async (req, res) => {
   try {
     const result = await formService.createForm(req.body);
-    responseHandler.success(res, 201, result, "Table created successfully");
+    responseHandler.success(res, 201, result, "Form successfully created");
   } catch (error) {
     responseHandler.error(res, error);
   }
